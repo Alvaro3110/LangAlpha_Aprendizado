@@ -120,3 +120,24 @@ Open a [GitHub Issue](https://github.com/ginlix-ai/langalpha/issues) with:
 ## Questions?
 
 Open a [GitHub Discussion](https://github.com/ginlix-ai/langalpha/discussions) or comment on a relevant issue.
+
+## Learning Labs Submodule
+
+The `learning_labs/` directory is maintained as a Git submodule.
+
+### Clone with submodules
+
+```bash
+git clone --recurse-submodules https://github.com/Alvaro3110/LangAlpha_Aprendizado.git
+```
+
+### Initialize/update an existing clone
+
+```bash
+git submodule update --init --recursive
+```
+
+### Daily workflow
+
+1. Commit and push changes inside `learning_labs/` first.
+2. Return to the parent repo and commit the updated submodule pointer.
